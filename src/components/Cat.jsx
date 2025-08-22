@@ -17,6 +17,8 @@ import Email from "../assets/email.png";
 import Ai from "../assets/AI.png"
 import WEB from "../assets/web.png"
 import PET from "../assets/pets.png"
+import XL from "../assets/xls.png"
+import Powerbi from "../assets/pwerbi.png"
 import "./style.css";
 export class Cat extends Component {
   state = {
@@ -101,6 +103,14 @@ export class Cat extends Component {
       {
         name: "Python",
         icon: PYTHON,
+      },
+      {
+        name: "Excel",
+        icon: XL,
+      },
+      {
+        name: "PowerBI",
+        icon: Powerbi,
       },
     ],
     social: [
